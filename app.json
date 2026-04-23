@@ -34,8 +34,7 @@
       "expo-camera",
       "expo-location",
       "expo-media-library",
-      "expo-file-system",
-      "expo-image-manipulator"
+      "expo-file-system"
     ]
   }
 }
