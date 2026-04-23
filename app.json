@@ -4,7 +4,6 @@
     "slug": "watermark-camera",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
       "backgroundColor": "#000000"
@@ -20,9 +19,6 @@
       }
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#000000"
-      },
       "package": "com.watermark.camera",
       "permissions": [
         "CAMERA",
