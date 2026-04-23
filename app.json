@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "水印相机",
+    "slug": "watermark-camera",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.watermark.camera",
+      "infoPlist": {
+        "NSCameraUsageDescription": "需要使用相机来拍照",
+        "NSLocationWhenInUseUsageDescription": "需要位置信息来添加GPS水印",
+        "NSPhotoLibraryAddUsageDescription": "需要保存照片到相册"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000"
+      },
+      "package": "com.watermark.camera",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-location",
+      "expo-media-library",
+      "expo-file-system",
+      "expo-image-manipulator"
+    ]
+  }
+}
